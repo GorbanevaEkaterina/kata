@@ -23,13 +23,13 @@ body{font-family:"TT Lakes";min-width:320px;overflow-x:hidden}
 }
 .header__nav{padding:0;width:118px;display:flex;justify-content:space-between;align-items:center;margin-left:-42px}
 @media (min-width:768px){
-.header__nav{padding-left:20px}
+.header__nav{width:140px;padding-left:20px}
 }
 .header__nav__button{width:96px;display:flex;justify-content:space-between;align-items:center}
 @media (min-width:768px){
-.header__nav__button{width:140px;display:flex;justify-content:space-between;align-items:center}
+.header__nav__button{width:132px;display:flex;justify-content:space-between;align-items:center}
 }
 .header__nav1{visibility:hidden}
 @media (min-width:768px){
-.header__nav1{visibility:visible;width:184px;display:flex;justify-content:space-between;align-items:center;margin-right:36px}
+.header__nav1{visibility:visible;width:240px;display:flex;justify-content:space-between;align-items:center;margin-right:36px}
 }

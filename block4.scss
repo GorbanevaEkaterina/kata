@@ -114,6 +114,7 @@ margin-right: 17px;
 }
 @media (min-width:768px){
   .header__nav {
+    width: 140px;
     padding-left: 20px;
   }
 }
@@ -127,7 +128,7 @@ margin-right: 17px;
 }
 @media (min-width:768px){
   .header__nav__button{
-    width: 140px;
+    width: 132px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,7 +145,7 @@ margin-right: 17px;
 @media (min-width:768px){
   .header__nav1 {
     visibility: visible;
-    width: 184px;
+    width: 240px;
     display: flex;
     justify-content: space-between;
     align-items: center;
