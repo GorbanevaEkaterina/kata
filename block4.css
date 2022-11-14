@@ -75,17 +75,16 @@ body {
   .header__divider1 {
     visibility: visible; } }
 .header__nav {
+  padding: 0;
   width: 118px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: -42px; }
 
-/*@media (min-width:768px){
+@media (min-width: 768px) {
   .header__nav {
-    padding-left: 20px;
-  }
-}*/
+    padding-left: 20px; } }
 .header__nav__button {
   width: 96px;
   display: flex;
@@ -94,7 +93,7 @@ body {
 
 @media (min-width: 768px) {
   .header__nav__button {
-    width: 96px;
+    width: 140px;
     display: flex;
     justify-content: space-between;
     align-items: center; } }
@@ -107,6 +106,7 @@ body {
     width: 184px;
     display: flex;
     justify-content: space-between;
-    align-items: center; } }
+    align-items: center;
+    margin-right: 36px; } }
 
 /*# sourceMappingURL=block4.css.map */

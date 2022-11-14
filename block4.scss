@@ -103,7 +103,7 @@ margin-right: 17px;
 
 
 .header__nav{
-
+ padding: 0;
   width: 118px;
   display: flex;
   justify-content: space-between;
@@ -112,11 +112,11 @@ margin-right: 17px;
 
 
 }
-/*@media (min-width:768px){
+@media (min-width:768px){
   .header__nav {
     padding-left: 20px;
   }
-}*/
+}
 .header__nav__button{
   width: 96px;
   display: flex;
@@ -127,7 +127,7 @@ margin-right: 17px;
 }
 @media (min-width:768px){
   .header__nav__button{
-    width: 96px;
+    width: 140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -148,6 +148,7 @@ margin-right: 17px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 36px;
 
   }
 }
