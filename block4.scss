@@ -35,7 +35,7 @@ align-items: center;
   .logo {
     width:97px;
     height:51px;
-    margin-right: 17px;
+
 
 
   }
@@ -54,6 +54,7 @@ align-items: center;
 width: 65px;
   display: flex;
   align-items: center;
+  margin-right: 17px;
 
 }
 @media (min-width:768px){
@@ -79,7 +80,7 @@ width: 65px;
   padding: 0px;
   border-radius: 1px;
   border:none;
-  margin: 0px;
+margin-right: 17px;
 
 }
 
@@ -91,7 +92,7 @@ width: 65px;
   padding: 0;
   border-radius: 1px;
   border:none;
-  margin-left: 20px;
+
 }
 @media (min-width:768px){
   .header__divider1 {
@@ -107,6 +108,7 @@ width: 65px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left:-42px;
 
 
 }
@@ -120,7 +122,7 @@ width: 65px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 0px;
+
 
 }
 @media (min-width:768px){
@@ -146,6 +148,6 @@ width: 65px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 42px;
+
   }
 }

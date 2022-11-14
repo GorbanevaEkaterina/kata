@@ -28,8 +28,7 @@ body {
 
 .logo {
   width: 97px;
-  height: 51px;
-  margin-right: 17px; }
+  height: 51px; }
 
 @media (min-width: 768px) {
   .logo {
@@ -40,7 +39,8 @@ body {
 .menu {
   width: 65px;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin-right: 17px; }
 
 @media (min-width: 768px) {
   .menu {
@@ -61,7 +61,7 @@ body {
   padding: 0px;
   border-radius: 1px;
   border: none;
-  margin: 0px; }
+  margin-right: 17px; }
 
 .header__divider1 {
   visibility: hidden;
@@ -69,8 +69,7 @@ body {
   height: 32px;
   padding: 0;
   border-radius: 1px;
-  border: none;
-  margin-left: 20px; }
+  border: none; }
 
 @media (min-width: 768px) {
   .header__divider1 {
@@ -79,7 +78,8 @@ body {
   width: 118px;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  margin-left: -42px; }
 
 /*@media (min-width:768px){
   .header__nav {
@@ -90,8 +90,7 @@ body {
   width: 96px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-left: 0px; }
+  align-items: center; }
 
 @media (min-width: 768px) {
   .header__nav__button {
@@ -108,7 +107,6 @@ body {
     width: 184px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-right: 42px; } }
+    align-items: center; } }
 
 /*# sourceMappingURL=block4.css.map */
