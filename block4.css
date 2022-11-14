@@ -10,7 +10,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: "TT Lakes", serif;
+  font-family: "TT Lakes";
   min-width: 320px;
   overflow-x: hidden; }
 
@@ -33,6 +33,21 @@ body {
     margin-right: 17px;
     margin-left: 17px; }
 
+@media (min-width: 768px) {
+  .logo {
+    width: 97px;
+    height: 51px;
+    margin-right: 251px;
+    margin-left: 21px; } }
+.menu {
+  width: 73px; }
+
+@media (min-width: 768px) {
+  .menu {
+    width: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; } }
 .header__button {
   width: 40px;
   height: 40px;
@@ -47,10 +62,42 @@ body {
   border-radius: 1px;
   border: none; }
 
+.header__divider1 {
+  visibility: hidden;
+  width: 2px;
+  height: 32px;
+  padding: 0;
+  border-radius: 1px;
+  border: none; }
+
+@media (min-width: 768px) {
+  .header__divider1 {
+    visibility: visible; } }
 .header__nav {
   width: 136px;
   display: flex;
   justify-content: space-between;
   align-items: center; }
+
+@media (min-width: 768px) {
+  .header__nav {
+    padding-left: 20px; } }
+.header__nav__button {
+  width: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px; }
+
+.header__nav1 {
+  visibility: hidden; }
+
+@media (min-width: 768px) {
+  .header__nav1 {
+    visibility: visible;
+    width: 184px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; } }
 
 /*# sourceMappingURL=block4.css.map */
