@@ -506,8 +506,8 @@ p.about1 {
     width: 490px; } }
 .about1 {
   font-family: "TT Lakes Light",sans-serif;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 0.2px;
   color: #1B1C21;
   margin-left: 10px;
@@ -528,8 +528,8 @@ p.about1 {
     /* visibility: visible;*/
     display: contents;
     font-family: "TT Lakes Light",sans-serif;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 24px;
     letter-spacing: 0.2px;
     color: #1B1C21;
     margin-left: 16px;

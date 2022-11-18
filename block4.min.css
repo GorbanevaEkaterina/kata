@@ -129,13 +129,13 @@ p.about1{margin-top:0;margin-left:0;margin-bottom:20px}
 @media (min-width:1120px){
 p.about1{width:490px}
 }
-.about1{font-family:"TT Lakes Light",sans-serif;font-size:14px;line-height:18px;letter-spacing:.2px;color:#1b1c21;margin-left:10px}
+.about1{font-family:"TT Lakes Light",sans-serif;font-size:16px;line-height:24px;letter-spacing:.2px;color:#1b1c21;margin-left:10px}
 @media (min-width:768px){
 .about1{line-height:20px;margin-top:0;margin-bottom:0}
 }
 .about2{display:none}
 @media (min-width:768px){
-.about2{display:contents;font-family:"TT Lakes Light",sans-serif;font-size:14px;line-height:18px;letter-spacing:.2px;color:#1b1c21;margin-left:16px;margin-top:24px;margin-bottom:16px}
+.about2{display:contents;font-family:"TT Lakes Light",sans-serif;font-size:16px;line-height:24px;letter-spacing:.2px;color:#1b1c21;margin-left:16px;margin-top:24px;margin-bottom:16px}
 }
 .about3{display:none;font-family:"TT Lakes Light",sans-serif;font-size:14px;line-height:18px;letter-spacing:.2px;color:#1b1c21;margin-left:10px;margin-top:24px;margin-bottom:16px}
 @media (min-width:1120px){
