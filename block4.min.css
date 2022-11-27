@@ -1,6 +1,14 @@
+@charset "UTF-8";
 @font-face{font-family:"TT Lakes";font-style:normal;font-weight:400;src:url(fonts/TTLakes-Black.woff) format("woff")}
 html{box-sizing:border-box}
 *,::after,::before{box-sizing:inherit}
+.wrapper{margin:0 auto;width:320px;max-width:320px}
+@media (min-width:768px){
+.wrapper{width:768px}
+}
+@media (min-width:1120px){
+.wrapper{width:1120px}
+}
 body{font-family:"TT Lakes";min-width:320px;overflow-x:hidden;background-color:#f8f8f8}
 .container{height:88px;padding:0 16px;display:flex;align-items:center}
 @media (min-width:768px){
@@ -167,3 +175,57 @@ p.about1{width:490px}
 @media (min-width:1120px){
 .picture__fon{width:531px;height:307px}
 }
+.mobile__wrapper{max-width:320px;width:320px;height:1024px;margin:0 auto;float:left}
+.mobile__container{width:320px;height:120px;display:flex;margin-left:24px;margin-right:24px;align-items:center}
+.header__mobile{margin-top:23px}
+.header__mobile_link{display:flex;align-items:center;margin-top:10px;margin-left:10px}
+.logo__mobile{margin-left:17px;margin-right:78px}
+.first__button{display:flex;width:124px;height:32px}
+.main__mobile_menu ul{padding-left:0;margin-left:24px}
+.mobile__button1{display:flex;align-items:center;border:solid 1px transparent;background-color:#f8f8f8;border-radius:6px;width:120px;height:24px;padding-right:0;padding-left:0;margin-top:32px;font-size:16px;color:#1b1c21;margin-left:24px}
+.mobile__button1:active{color:#7e7e82;transform:translateY(1px);filter:saturate(150%);border-color:#b8ffec}
+.mobile__button1:focus,.mobile__button1:hover{color:#7e7e82;border-color:#b8ffec;background-color:#fff}
+.mobile__button1:before{position:absolute;left:2px;top:168px;content:url("img/highlight .png");height:32px;width:4px}
+.mobile__button2{display:flex;align-items:center;border:solid 1px transparent;background-color:#f8f8f8;border-radius:6px;width:132px;height:24px;padding-right:0;padding-left:0;margin-top:32px}
+.mobile__button2:active{transform:translateY(1px);filter:saturate(150%);border-color:#b8ffec}
+.mobile__button2:focus,.mobile__button2:hover{color:#b8ffec;border-color:currentColor;background-color:#fff}
+.mobile__button2_link{font-family:"TT Lakes Light",sans-serif;font-size:16px;line-height:24px;letter-spacing:-.2px;color:#1b1c21;width:132px;height:24px}
+.mobile__button3{display:flex;align-items:center;border:solid 1px transparent;background-color:#f8f8f8;border-radius:6px;width:198px;height:24px;padding-right:0;padding-left:0;margin-top:32px}
+.mobile__button3:active{transform:translateY(1px);filter:saturate(150%);border-color:#b8ffec}
+.mobile__button3:focus,.mobile__button3:hover{color:#b8ffec;border-color:currentColor;background-color:#fff}
+.mobile__button3_link{font-family:"TT Lakes Light",sans-serif;font-size:16px;line-height:24px;letter-spacing:-.2px;color:#1b1c21;width:198px;height:24px}
+.mobile__button4{display:flex;align-items:center;border:solid 1px transparent;background-color:#f8f8f8;border-radius:6px;width:149px;height:24px;padding-right:0;padding-left:0;margin-top:32px}
+.mobile__button4:active{transform:translateY(1px);filter:saturate(150%);border-color:#b8ffec}
+.mobile__button4:focus,.mobile__button4:hover{color:#b8ffec;border-color:currentColor;background-color:#fff}
+.mobile__button4_link{font-family:"TT Lakes Light",sans-serif;font-size:16px;line-height:24px;letter-spacing:-.2px;color:#1b1c21;width:149px;height:24px}
+.mobile__button5{display:flex;align-items:center;border:solid 1px transparent;background-color:#f8f8f8;border-radius:6px;width:85px;height:24px;padding-right:0;padding-left:0;margin-top:32px}
+.mobile__button5:active{transform:translateY(1px);filter:saturate(150%);border-color:#b8ffec}
+.mobile__button5:focus,.mobile__button5:hover{color:#b8ffec;border-color:currentColor;background-color:#fff}
+.mobile__button5_link{font-family:"TT Lakes Light",sans-serif;font-size:16px;line-height:24px;letter-spacing:-.2px;color:#1b1c21;width:85px;height:24px}
+.mobile__button6{display:flex;align-items:center;border:solid 1px transparent;background-color:#f8f8f8;border-radius:6px;width:130px;height:24px;padding-right:0;padding-left:0;margin-top:32px}
+.mobile__button6:active{transform:translateY(1px);filter:saturate(150%);border-color:#b8ffec}
+.mobile__button6:focus,.mobile__button6:hover{color:#b8ffec;border-color:currentColor;background-color:#fff}
+.mobile__button6_link{font-family:"TT Lakes Light",sans-serif;font-size:16px;line-height:24px;letter-spacing:-.2px;color:#1b1c21;width:130px;height:24px}
+.mobile__button7{display:flex;align-items:center;border:solid 1px transparent;background-color:#f8f8f8;border-radius:6px;width:188px;height:24px;padding-right:0;padding-left:0;margin-top:32px}
+.mobile__button7:active{transform:translateY(1px);filter:saturate(150%);border-color:#b8ffec}
+.mobile__button7:focus,.mobile__button7:hover{color:#b8ffec;border-color:currentColor;background-color:#fff}
+.mobile__button7_link{font-family:"TT Lakes Light",sans-serif;font-size:16px;line-height:24px;letter-spacing:-.2px;color:#1b1c21;width:188px;height:24px}
+.mobile__button8{display:flex;align-items:center;border:solid 1px transparent;background-color:#f8f8f8;border-radius:6px;width:72px;height:24px;padding-right:0;padding-left:0;margin-top:32px}
+.mobile__button8:active{transform:translateY(1px);filter:saturate(150%);border-color:#b8ffec}
+.mobile__button8:focus,.mobile__button8:hover{color:#b8ffec;border-color:currentColor;background-color:#fff}
+.mobile__button8_link{font-family:"TT Lakes Light",sans-serif;font-size:16px;line-height:24px;letter-spacing:-.2px;color:#1b1c21;width:72px;height:24px}
+.container__footer{margin-top:268px;margin-bottom:32px}
+.footer__button{display:flex;justify-content:space-between;width:152px;height:40px;margin-left:24px;margin-bottom:16px;text-align:center}
+.footer__mobile_link{display:flex;margin-top:10px;margin-left:10px;width:20px;height:20px}
+.mail{font-family:"TT Lakes",sans-serif;font-size:16px;line-height:24px;letter-spacing:-.2px;color:#1b1c21;width:106px;height:24px;margin-left:24px;text-decoration-color:#1b1c21}
+.mail__1{color:#1b1c21}
+.phone{width:205px;height:32px;margin-top:12px}
+.phone__1{display:flex;align-items:center;font-size:24px;color:#1b1c21;width:205px;height:32px;margin-left:24px}
+.button__lang{display:flex;justify-content:space-between;width:86px;height:24px;margin-bottom:32px;margin-top:40px;margin-left:24px}
+.footer__mobile_button_lang1{display:flex;background-color:#f8f8f8;width:24px;height:24px;margin-bottom:32px;font-family:"TT Lakes",sans-serif;font-size:16px;line-height:24px;letter-spacing:-.2px;color:#1b1c21}
+.footer__mobile_button_lang1:active{color:#7e7e82;transform:translateY(1px);filter:saturate(150%)}
+.footer__mobile_button_lang1:focus,.footer__mobile_button_lang1:hover{color:#7e7e82;border-color:currentColor;background-color:#f8f8f8}
+.footer__mobile_button_lang2:active{color:#7e7e82;transform:translateY(1px);filter:saturate(150%)}
+.footer__mobile_button_lang2:focus,.footer__mobile_button_lang2:hover{color:#7e7e82;border-color:currentColor;background-color:#f8f8f8}
+.footer__mobile_button_lang3:active{color:#7e7e82;transform:translateY(1px);filter:saturate(150%)}
+.footer__mobile_button_lang3:focus,.footer__mobile_button_lang3:hover{color:#7e7e82;border-color:currentColor;background-color:#f8f8f8}
