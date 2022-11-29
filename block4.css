@@ -1039,4 +1039,44 @@ p.about1 {
   border-color: currentColor;
   background-color: #F8F8F8; }
 
+/*Различные бренды*/
+.container__footer_brand {
+  margin: 0 auto;
+  width: 320px;
+  max-width: 320px; }
+
+@media (min-width: 768px) {
+  .container__footer_brand {
+    width: 768px; } }
+@media (min-width: 1120px) {
+  .container__footer_brand {
+    width: 1120px; } }
+.footer__header {
+  width: 320px;
+  height: 79px;
+  padding: 16px;
+  background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%); }
+
+.footer__header_h2 {
+  width: 288px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  color: #7E7E82; }
+
+.footer__brand_button {
+  width: 270px;
+  height: 72px;
+  margin: 16px 64px 16px 16px;
+  background: #F2F2F2; }
+
+.brand__button1 {
+  width: 270px;
+  height: 72px;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 6px; }
+
 /*# sourceMappingURL=block4.css.map */

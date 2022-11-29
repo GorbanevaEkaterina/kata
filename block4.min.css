@@ -229,3 +229,14 @@ p.about1{width:490px}
 .footer__mobile_button_lang2:focus,.footer__mobile_button_lang2:hover{color:#7e7e82;border-color:currentColor;background-color:#f8f8f8}
 .footer__mobile_button_lang3:active{color:#7e7e82;transform:translateY(1px);filter:saturate(150%)}
 .footer__mobile_button_lang3:focus,.footer__mobile_button_lang3:hover{color:#7e7e82;border-color:currentColor;background-color:#f8f8f8}
+.container__footer_brand{margin:0 auto;width:320px;max-width:320px}
+@media (min-width:768px){
+.container__footer_brand{width:768px}
+}
+@media (min-width:1120px){
+.container__footer_brand{width:1120px}
+}
+.footer__header{width:320px;height:79px;padding:16px;background:linear-gradient(270deg,#f8f8f8 0,#fff 98.61%)}
+.footer__header_h2{width:288px;height:48px;font-size:16px;line-height:24px;letter-spacing:-.2px;text-transform:uppercase;color:#7e7e82}
+.footer__brand_button{width:270px;height:72px;margin:16px 64px 16px 16px;background:#f2f2f2}
+.brand__button1{width:270px;height:72px;background:#fff;border:1px solid #eaeaea;border-radius:6px}
