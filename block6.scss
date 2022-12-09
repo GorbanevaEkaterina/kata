@@ -632,7 +632,7 @@
 @media (min-width:768px) {
   .footer__more {
     visibility: visible;
-display: flex;
+    display: flex;
     width: 134px;
     height: 24px;
     bottom: 34px;
@@ -731,4 +731,14 @@ display: flex;
   display: none;
   width: 24px;
   height: 24px;
+}
+.more__expand_active.seee {
+  display: block;
+}
+.more__expand{
+  width: 24px;
+  height: 24px;
+}
+.more__expand.see {
+  display: block;
 }

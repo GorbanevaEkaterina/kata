@@ -758,4 +758,17 @@
   height: 24px;
 }
 
+.more__expand_active.seee {
+  display: block;
+}
+
+.more__expand {
+  width: 24px;
+  height: 24px;
+}
+
+.more__expand.see {
+  display: block;
+}
+
 /*# sourceMappingURL=block6.css.map */
